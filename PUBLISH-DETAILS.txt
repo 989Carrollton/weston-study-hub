@@ -4,8 +4,11 @@ Repo URL: https://github.com/989Carrollton/weston-study-hub
 Host: GitHub Pages (989Carrollton) — main branch / root
 
 Structure: Hub (unit picker) → Unit modes → study/flash/quiz
-UNITS: Religion (8th Grade · Test 9/16/2026 · Notes coming soon)
-SECTIONS: placeholder until notes uploaded; FLASHCARDS/QUIZ still empty
+UNITS: Religion (8th Grade · Test 9/16/2026 · Commandments, Sabbath, life & holiness)
+SECTIONS: 3 (Vocab, Commandments, Life & holiness)
+FLASHCARDS: 14 vocab terms
+QUIZ: 28 questions (27 multiple choice including T/F as True/False, 1 multi-select)
+Cache bust: app.js?v=religion1 and styles.css?v=religion1
 sessionStorage key: weston_hub_unlocked
 
 Mazie's Study Hub: https://989carrollton.github.io/mazie-study-hub/ (password mazie6)

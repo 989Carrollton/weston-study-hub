@@ -618,8 +618,8 @@
     if (!flashOrder.length) return;
     const card = currentFlash();
     if (!card) return;
-    $("#flash-term").textContent = card.term;
-    $("#flash-def").textContent = card.def;
+    $("#flash-term").textContent = card.def;
+    $("#flash-def").textContent = card.term;
     $("#flashcard").classList.toggle("flipped", flashFlipped);
     $("#flash-progress").textContent = (flashIndex + 1) + " / " + flashOrder.length;
     $("#stat-know").textContent = knowSet.size;

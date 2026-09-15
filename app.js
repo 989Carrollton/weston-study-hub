@@ -1,17 +1,38 @@
 (function () {
   "use strict";
 
-  const PASSWORD = "weston6";
+  const PASSWORD = "weston8";
   const GATE_KEY = "weston_hub_unlocked";
 
   // ——— Units (data-driven; add more subjects here later) ———
   // When adding a unit, also fill SECTIONS / FLASHCARDS / QUIZ (or nest per-unit later).
-  const UNITS = [];
+  const UNITS = [
+    {
+      id: "religion",
+      title: "Religion",
+      emoji: "✝️",
+      subtitle: "8th Grade · Test 9/16/2026 · Notes coming soon",
+      welcome: "Hey Weston! Pick a mode to get ready for your Religion test. You've got this! 💪",
+      quizTitle: "Religion Quiz",
+      readyMsg: "You're ready for that Religion test!"
+    }
+  ];
 
   let currentUnit = null;
 
   // ——— Study sections (empty until first unit content is added) ———
-  const SECTIONS = [];
+  const SECTIONS = [
+    {
+      id: "coming-soon",
+      title: "Notes coming soon",
+      short: "1. Soon",
+      html: `
+        <h2>Religion unit</h2>
+        <p>Your study guide, flashcards, and quiz will land here as soon as your notes are uploaded.</p>
+        <p><strong>Test date:</strong> 9/16/2026 · <strong>Grade:</strong> 8th</p>
+      `
+    }
+  ];
 
   // ——— Flashcards (empty until first unit content is added) ———
   const FLASHCARDS = [];

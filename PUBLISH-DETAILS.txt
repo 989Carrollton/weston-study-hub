@@ -1,15 +1,11 @@
 Live URL: https://989carrollton.github.io/weston-study-hub/
-Password: weston6
+Password: weston8
 Repo URL: https://github.com/989Carrollton/weston-study-hub
 Host: GitHub Pages (989Carrollton) — main branch / root
 
-Structure: Hub (unit picker) → Unit modes (Study Guide / Flashcards / Quiz) → content
-UNITS: empty for now (friendly empty state: "No subjects yet — your dad will add your first one soon!")
-SECTIONS / FLASHCARDS / QUIZ: empty placeholders — add content when first unit is ready
+Structure: Hub (unit picker) → Unit modes → study/flash/quiz
+UNITS: Religion (8th Grade · Test 9/16/2026 · Notes coming soon)
+SECTIONS: placeholder until notes uploaded; FLASHCARDS/QUIZ still empty
 sessionStorage key: weston_hub_unlocked
 
-Grade: 8th
-Next unit (pending materials): Religion — do NOT invent quiz/flash content until source materials arrive
-
-Hub local files: /workspace/kids-study/weston-study-hub/{index.html,app.js,styles.css}
-NOTE: Mazie's Study Hub is UNCHANGED at https://989carrollton.github.io/mazie-study-hub/
+Mazie's Study Hub: https://989carrollton.github.io/mazie-study-hub/ (password mazie6)

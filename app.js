@@ -70,8 +70,8 @@
   }
   $("#gate-form").addEventListener("submit", (e) => {
     e.preventDefault();
-    const pw = $("#gate-pw").value.trim();
-    if (pw === PASSWORD) {
+    const pw = $("#gate-pw").value.trim().toLowerCase();
+    if (pw === PASSWORD.toLowerCase()) {
       sessionStorage.setItem(GATE_KEY, "1");
       $("#gate-error").classList.add("hidden");
       gate.classList.add("hidden");
